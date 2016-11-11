@@ -6,5 +6,5 @@ SCENARIO("lab3 sum", "[sum]") {
     
     double rv = sum( eps );
     
-	REQUIRE( rv == 0.822516 );
+	REQUIRE( rv ==0.822515563 );
 }
