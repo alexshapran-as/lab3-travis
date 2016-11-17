@@ -14,5 +14,5 @@ double sum ( double eps )
 	}
 	while(sum_mod >= eps);
 
-	return sum;
+	return round(sum);
 }
